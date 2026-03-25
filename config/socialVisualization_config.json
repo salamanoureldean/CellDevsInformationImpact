@@ -1,0 +1,26 @@
+{
+  "scenario": { "shape": [20, 20], "origin": [0, 0], "wrapped": true },
+  "cells": {
+    "default": {
+      "delay": "transport",
+      "model": "social",
+      "state": { "value": 0 },
+      "neighborhood": [ { "type": "von_neumann", "range": 1 } ]
+    },
+    "seeds": {
+      "state": { "value": 1 },
+      "cell_map": [ [1, 1], [13, 10], [18, 18] ]
+    }
+  },
+  "viewer": [
+    {
+      "colors": [
+        [255, 255, 255],
+        [255, 102, 0],
+        [0, 102, 255]
+      ],
+      "breaks": [0, 0.5, 1.5, 2.5],
+      "field": "value"
+    }
+  ]
+}
