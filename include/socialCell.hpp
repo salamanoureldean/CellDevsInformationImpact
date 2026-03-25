@@ -43,8 +43,7 @@ public:
     return state;
 }
 
-    // THE MISSING FUNCTION:
-    // This returns the 100ms delay defined in your .ma file
+    // Return the 100ms delay
     [[nodiscard]] double outputDelay(const socialState& state) const override {
         return 100.0;
     }
